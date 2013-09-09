@@ -1,0 +1,26 @@
+{
+  "name": "stream-aggregate",
+  "version": "0.0.0",
+  "description": "Aggregate streams of string, buffers and objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha specs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "andreypopp/stream-aggregate"
+  },
+  "keywords": [
+    "stream",
+    "aggregate"
+  ],
+  "author": "Andrey Popp <8mayday@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "through": "~2.3.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.1",
+    "semver": "~2.1.0"
+  }
+}
