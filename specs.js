@@ -50,7 +50,7 @@ describe('stream-aggregate', function() {
       done();
     });
 
-    stream.emit('error');
+    stream.emit('error', new Error('oops'));
     stream.end();
   });
 

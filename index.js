@@ -21,7 +21,7 @@ module.exports = function (stream, cb) {
         }
       });
 
-  aggregator.on('error', function(err) {
+  stream.on('error', function(err) {
     if (error) return;
 
     error = true;
