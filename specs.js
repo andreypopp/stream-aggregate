@@ -8,6 +8,7 @@ describe('stream-aggregate', function() {
     var stream = through();
     aggregate(stream, function(err, result) {
       assert.ok(!err);
+      assert.ok(Array.isArray(result));
       assert.deepEqual(result, [1, 2]);
       done();
     });
